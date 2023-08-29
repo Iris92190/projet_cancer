@@ -1,0 +1,7 @@
+sources:
+  - name: pathologie
+    schema: pathologie
+    tables:
+      - name: comorbidites  
+
+  
