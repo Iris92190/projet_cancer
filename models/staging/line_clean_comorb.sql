@@ -1,5 +1,5 @@
 SELECT*
-FROM pathologie.comorbidites
+FROM {{ref("column_clean_combord")}}
 WHERE Ncomorb IS NOT NULL
 AND patho_niv1 <> "Séjours en hospitalisation complète pour prise en charge de la Covid-19"
 AND libelle_comorbidite <> "Séjours en hospitalisation complète pour prise en charge de la Covid-19"
