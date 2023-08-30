@@ -16,6 +16,6 @@ WHERE patho_niv1 IS not null
     AND patho_niv1 <> "Pas de pathologies repérées, traitements, maternité, hospitalisations ni traitement antalgique ou anti-inflammatoire"
     AND patho_niv1 <> "Maternité (avec ou sans pathologies)"
     AND patho_niv1 <> "Hospitalisations ponctuelles (avec ou sans pathologies, traitements ou maternité)"
-    AND patho_niv1 <> "Traitement antalgique ou anti-inflammatoire (hors pathologies, traitements, maternité ou hospitalisations)"
+    AND patho_niv1 NOT LIKE "Traitements%"
     AND patho_niv1 <> "Autres affections de longue durée (dont 31 et 32)"
     AND ntop IS NOT NULL
