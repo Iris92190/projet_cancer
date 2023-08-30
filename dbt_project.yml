@@ -38,5 +38,5 @@ models:
     intermediate:
       dataset: intermediate
     marts:
-      dataset: mart
+      dataset: marts
 
